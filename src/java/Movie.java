@@ -36,6 +36,6 @@ public class Movie {
 
     @Override
     public String toString() {
-        return title + " (" + releaseYear + ") - Directed by " + director + ", Genre: " + genre + ", Rating: " + rating;
+        return title + " (" + releaseYear + ") - Directed by: " + director + ", Genre: " + genre + ", Rating: " + rating;
     }
 }
